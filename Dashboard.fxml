@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainViewController">
+   <children>
+      <ImageView fitHeight="105.0" fitWidth="242.0" layoutX="279.0" layoutY="6.0">
+         <image>
+            <Image url="@../../../../../Downloads/PetPalLogo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="LogOut" contentDisplay="CENTER" layoutX="677.0" layoutY="37.0" mnemonicParsing="false" onAction="#LogOut" prefHeight="39.0" prefWidth="82.0" style="-fx-background-color: #08939e; -fx-border-color: #000000; -fx-border-radius: 25; -fx-background-radius: 25;" text="LOGOUT" textFill="WHITE">
+         <font>
+            <Font name="Cambria Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="AdoptPet" contentDisplay="CENTER" layoutX="441.0" layoutY="234.0" mnemonicParsing="false" onAction="#AdoptPet" prefHeight="42.0" prefWidth="182.0" style="-fx-background-color: #08939e; -fx-border-color: #000000; -fx-border-radius: 25; -fx-background-radius: 25;" text="Adopt Pet" textFill="WHITE">
+         <font>
+            <Font name="Cambria Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="CreateAccount2" contentDisplay="CENTER" layoutX="441.0" layoutY="320.0" mnemonicParsing="false" onAction="#CreateAccount" prefHeight="42.0" prefWidth="182.0" style="-fx-background-color: #08939e; -fx-border-color: #000000; -fx-border-radius: 25; -fx-background-radius: 25;" text="Community Forum" textFill="WHITE">
+         <font>
+            <Font name="Cambria Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="CreateAccount3" contentDisplay="CENTER" layoutX="176.0" layoutY="234.0" mnemonicParsing="false" onAction="#CreateAccount" prefHeight="42.0" prefWidth="182.0" style="-fx-background-color: #08939e; -fx-border-color: #000000; -fx-border-radius: 25; -fx-background-radius: 25;" text="Add Pet Profile" textFill="WHITE">
+         <font>
+            <Font name="Cambria Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="CreateAccount4" contentDisplay="CENTER" layoutX="443.0" layoutY="152.0" mnemonicParsing="false" onAction="#CreateAccount" prefHeight="42.0" prefWidth="182.0" style="-fx-background-color: #08939e; -fx-border-color: #000000; -fx-border-radius: 25; -fx-background-radius: 25;" text="Update Pet Profile" textFill="WHITE">
+         <font>
+            <Font name="Cambria Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="updateUserProfile" contentDisplay="CENTER" layoutX="175.0" layoutY="152.0" mnemonicParsing="false" onAction="#updateUserProfile" prefHeight="42.0" prefWidth="182.0" style="-fx-background-color: #08939e; -fx-border-color: #000000; -fx-border-radius: 25; -fx-background-radius: 25;" text="Update Your Profile" textFill="WHITE">
+         <font>
+            <Font name="Cambria Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="CreateAccount11" contentDisplay="CENTER" layoutX="441.0" layoutY="407.0" mnemonicParsing="false" onAction="#CreateAccount" prefHeight="42.0" prefWidth="182.0" style="-fx-background-color: #08939e; -fx-border-color: #000000; -fx-border-radius: 25; -fx-background-radius: 25;" text="Donate To PetPal" textFill="WHITE">
+         <font>
+            <Font name="Cambria Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="CreateAccount12" contentDisplay="CENTER" layoutX="176.0" layoutY="320.0" mnemonicParsing="false" onAction="#CreateAccount" prefHeight="42.0" prefWidth="182.0" style="-fx-background-color: #08939e; -fx-border-color: #000000; -fx-border-radius: 25; -fx-background-radius: 25;" text="Share Success Story" textFill="WHITE">
+         <font>
+            <Font name="Cambria Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="CreateAccount13" contentDisplay="CENTER" layoutX="176.0" layoutY="407.0" mnemonicParsing="false" onAction="#CreateAccount" prefHeight="42.0" prefWidth="182.0" style="-fx-background-color: #08939e; -fx-border-color: #000000; -fx-border-radius: 25; -fx-background-radius: 25;" text="Report Lost &amp; Found" textFill="WHITE">
+         <font>
+            <Font name="Cambria Bold" size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="125.0" fitWidth="422.0" layoutX="210.0" layoutY="485.0">
+         <image>
+            <Image url="@../../../../../Downloads/petpal-removebg-preview.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

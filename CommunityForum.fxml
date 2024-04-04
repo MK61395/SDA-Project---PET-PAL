@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="your.package.CommunityForumController">
+    <children>
+        <Label layoutX="342.0" layoutY="52.0" text="Community Forum" textFill="#03989e">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+
+        <TableView fx:id="forumTableView" layoutX="186.0" layoutY="146.0" prefHeight="274.0" prefWidth="422.0" style="-fx-background-color: #08939e;">
+            <columns>
+                <TableColumn fx:id="userIDCol" prefWidth="200.0" text="User ID" />
+                <TableColumn fx:id="contentCol" prefWidth="400.0" text="Content" />
+            </columns>
+        </TableView>
+
+        <Button fx:id="CreateAccount" contentDisplay="CENTER" layoutX="55.0" layoutY="53.0" mnemonicParsing="false" onAction="#CreateAccount" prefHeight="27.0" prefWidth="62.0" style="-fx-background-color: #08939e; -fx-border-color: #000000; -fx-border-radius: 25; -fx-background-radius: 25;" text="BACK" textFill="WHITE">
+            <font>
+                <Font name="Cambria Bold" size="15.0" />
+            </font>
+        </Button>
+
+        <Button fx:id="LogOut" contentDisplay="CENTER" layoutX="649.0" layoutY="53.0" mnemonicParsing="false" onAction="#LogOut" prefHeight="33.0" prefWidth="106.0" style="-fx-background-color: #08939e; -fx-border-color: #000000; -fx-border-radius: 25; -fx-background-radius: 25;" text="LOGOUT" textFill="WHITE">
+            <font>
+                <Font name="Cambria Bold" size="15.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

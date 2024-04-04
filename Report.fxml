@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="484.0" prefWidth="401.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainViewController">
+
+    <VBox alignment="CENTER" spacing="10">
+        <Label text="Report Lost or Found Pet" textFill="#03989e">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+
+        <VBox spacing="5">
+            <Label text="User ID:" textFill="#08939e">
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </Label>
+            <TextField fx:id="userIDTextField" promptText="Enter your User ID" style="-fx-border-color: #03989E;" />
+        </VBox>
+
+        <VBox spacing="5">
+            <Label text="Description:" textFill="#08939e">
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </Label>
+            <TextArea fx:id="descriptionTextArea" prefHeight="100.0" prefWidth="400.0" promptText="Enter pet description" style="-fx-border-color: #03989E;" />
+        </VBox>
+
+        <VBox spacing="5">
+            <Label text="Location:" textFill="#08939e">
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </Label>
+            <TextField fx:id="locationTextField" promptText="Enter pet location" style="-fx-border-color: #03989E;" />
+        </VBox>
+
+        <HBox alignment="CENTER" spacing="10">
+            <Button onAction="#reportLostPet" style="-fx-background-color: #08939e; -fx-border-color: #000000; -fx-border-radius: 0; -fx-background-radius: 0;" text="Report Lost Pet" textFill="WHITE">
+                <font>
+                    <Font name="Cambria Bold" size="15.0" />
+                </font>
+            </Button>
+            
+            <Button onAction="#reportFoundPet" style="-fx-background-color: #08939e; -fx-border-color: #000000; -fx-border-radius: 0; -fx-background-radius: 0;" text="Report Found Pet" textFill="WHITE">
+                <font>
+                    <Font name="Cambria Bold" size="15.0" />
+                </font>
+            </Button>
+        </HBox>
+    </VBox>
+</AnchorPane>
